@@ -30,6 +30,12 @@ namespace Cake.MicrosoftTeams
         public string title { get; set; }
 
         /// <summary>
+        /// Accent color used for branding or indicating status in the card. Currently only works with Office365 Groups not Teams.
+        /// </summary>
+        /// <remarks>Plaintext String containing a color Hex Value e.g.: #737373</remarks>
+        public string themeColor { get; set; }
+
+        /// <summary>
         /// Contains a list of sections to display in the card.
         /// </summary>
         public ICollection<MicrosoftTeamsMessageSection> sections { get; set; }

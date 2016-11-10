@@ -24,6 +24,7 @@ System.Net.HttpStatusCode result = MicrosoftTeamsPostMessage("Hello from Cake!",
 var messageCard = new MicrosoftTeamsMessageCard {
   summary = "Cake posted message using Cake.MicrosoftTeams",
   title ="Cake Microsoft Teams",
+  themeColor = "#737373",
   sections = new []{
       new MicrosoftTeamsMessageSection{
           activityTitle = "Cake posted message",
